@@ -1,0 +1,17 @@
+{
+    "mcpServers": {
+        "php": {
+            "command": "docker",
+            "args": [
+                "compose",
+                "-f",
+                "c:/htdocs/adianti/docker-compose.yml",
+                "exec",
+                "-T",
+                "app",
+                "php",
+                "/var/www/html/mcp-server.php"
+            ]
+        }
+    }
+}

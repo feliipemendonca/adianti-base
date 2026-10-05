@@ -1,0 +1,13 @@
+.git
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+.env
+*.md
+tmp/*
+!tmp/.gitkeep
+app/output/*
+!app/output/.gitignore
+vendor/linfo/linfo/docker-compose.yml
+vendor/linfo/linfo/Dockerfile

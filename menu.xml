@@ -11,6 +11,10 @@
                 <icon>fa:book fa-fw</icon>
                 <action>LearnView</action>
             </menuitem>
+            <menuitem label='Clientes'>
+                <icon>fa:users fa-fw</icon>
+                <action>Clientes</action>
+            </menuitem>
             
             <menuitem label='Template'>
                 <icon>fa:desktop fa-fw</icon>
